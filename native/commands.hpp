@@ -1,0 +1,10 @@
+#pragma once
+namespace hr::ui {
+enum Command {
+    Refresh=200, CloseApp, AddGame, RemoveGame, LaunchGame, Capture, Import, Compare,
+    Gaming, Browsing, Creating, SaveModes, Undo, DisableStartup, RestoreStartup,
+    CheckDrivers, OptionalUpdates, Vendor, ServiceAuto, ServiceManual, ServiceDisabled,
+    PickPresentMon, SaveSettings, OpenData, Quit, OpenWindow,
+    TrimRam, ScanTemp, CleanTemp, ApplyFPS, ReduceSuggestions, ScanApps, RemoveApp, ReinstallApp, ToggleOverlay, SaveMouse, MousePreset, OpenMouse, AddMapping, RemoveMapping, SaveMapping, RefreshDisks, AnalyzeDisk, OptimizeDisk, OpenDiskCleanup, OpenOptimizeDrives, Screenshot, StartRecording, StopRecording, OpenCaptures, OneClickDebloat, ListenInput, StartStress, StopStress, RefreshInstalled, UninstallSelected, OpenWindowsApps, StorageScan, StorageClean, StorageChoose, StorageStop, StorageRoots, RevealFile, ToolRun, ToolInspect, OpenLogs, WingetSearch, WingetUpdates, WingetInstall, WingetUpgrade, WingetUninstall, WingetSchedule, WingetUnschedule, SleepSelected, ResumeSelected, ResumeAll, ScanSuggestions, FixSuggestions, HubInspect, HubRun, HubFavorite, HubSource, HubTarget, HubCancel, RestoreSelected, InspectRecovery, GalleryRefresh, GalleryOpen, GalleryCrop, GallerySave, GalleryTrim, OverlaySave, OverlayDefaults, ReplayStart, ReplayStop, ReplaySave, MicRefresh, MicStart, MicStop, MicPlayback, DevicesRefresh, DeviceSave, DeviceApply, DeviceDelete, ProfileSave, ProfileBrowse, ProfileBackupNow, ProfileRestore, MaintenanceSave, MaintenanceRun, MaintenanceHistory, ModsChoose, ModsSave, ModsPreview, ModsApply, ModsRecovery, ModsImport, ModsCancel, TimelineStart, TimelineStop, TimelineFreeze, TimelineExport, ReplayCancel, ReplayPrivacy, ReplayOpen, ProfileSleep, ModsRemove, DeviceUndo, StartRemapping, StopRemapping, InternetGo, InternetInspect, InternetDns, InternetRepair, InternetSettings, CompareBefore, CompareAfter, CompareExport, SetupScan, SetupStartup, SetupDesktop, SetupFinish, CompareCancel, CompareOpen, CenterLaunch, CenterProfile, CenterHud, CenterReplay, CenterTimeline, CenterRefresh, CenterLibrary, HistoryLog, PortableFolder
+};
+}
