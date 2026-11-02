@@ -43,8 +43,6 @@ gaming controls, and desktop customization in one place.
 2. Download and extract **`NovaTune-Portable.zip`**.
 3. Launch **`NovaTune.exe`**.
 
-Administrator access is required. Closing the window keeps NovaTune in the tray; use **Quit** to exit. To update, quit and replace the executable. Settings stay in `%APPDATA%\NovaTune`.
-
 ## 🛠 Build it yourself
 
 Bring **C++17**, **CMake 3.20+**, **Visual Studio C++ tools**, and a **Windows SDK**.
