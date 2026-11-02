@@ -54,7 +54,7 @@ cmake --build build --config Release --parallel
 
 Your build lands at **`build/Release/NovaTune.exe`**.
 
-Run tests manually in a Windows VM:
+Run tests manually :
 
 ```powershell
 ctest --test-dir build -C Release --output-on-failure
